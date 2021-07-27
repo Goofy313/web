@@ -1,0 +1,170 @@
+h1 {
+  font-size: 5.625rem;
+  font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+a{
+  color: #11999E;
+  font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+hr {
+  border: dotted white 10px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+body {
+  text-align: center;
+  background-image: linear-gradient(to bottom, #ffffff, #e1e7f5, #b8d2eb, #83c0da, #43afc0);
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.navbar {
+  background-color:rgba(0,0,0,0);
+  bottom: 25px;
+}
+
+.nav-link {
+  color: #293241;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: black;
+  text-shadow: 1px 1px 20px;
+}
+
+.top-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  /* height: 800px; */
+}
+
+.mid-container {
+  background-color: #FFFFFF;
+  border-radius: 50px;
+  box-shadow: 20px 20px 50px #293241;
+}
+
+.mid-container:hover {
+  /* box-shadow:20px 20px 50px 15px white; */
+
+}
+
+.bottom-container {
+  background-color: #FFFFFF;
+  box-shadow: 20px 20px 50px #293241;
+  border-radius: 50px;
+}
+
+.top-cloud {
+  /* margin-top: */
+  position: absolute;
+  left: 25%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 20%;
+}
+
+.title-text {
+  color: #293241;
+  font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+  padding-top: 300px;
+}
+
+.profile {
+  color: #293241;
+  padding-top: 300px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #293241;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.about {
+  font-family: Biotif-Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #293241;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.img-me {
+  border-radius: 50%;
+  width: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.skills {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.code-img {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.beer-img {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11cdd4;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ffffff;
+  color: #11cdd4;
+}
