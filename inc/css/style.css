@@ -73,11 +73,6 @@ a:hover {
   box-shadow: 20px 20px 50px #293241;
 }
 
-.mid-container:hover {
-  /* box-shadow:20px 20px 50px 15px white; */
-
-}
-
 .bottom-container {
   background-color: #FFFFFF;
   box-shadow: 20px 20px 50px #293241;
@@ -85,14 +80,26 @@ a:hover {
 }
 
 .top-cloud {
-  /* margin-top: */
   position: absolute;
   left: 15%;
+  webkit-animation: moverTop 4s infinite  alternate;
+  animation: moverTop 4s infinite  alternate;
 }
 
 .bottom-cloud {
   position: absolute;
   right: 20%;
+  webkit-animation: moverBottom 3s infinite  alternate;
+  animation: moverBottom 3s infinite  alternate;
+}
+
+@-webkit-keyframes moverTop {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(10px); }
+}
+@keyframes moverBottom {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
 }
 
 .title-text {
@@ -113,7 +120,6 @@ a:hover {
   color: #293241;
   font-size: 20px;
   padding-top: 30px;
-  padding-bottom: 50px;
 }
 
 .about {
@@ -173,6 +179,6 @@ a:hover {
 }
 
 .btn:hover {
-  background: #ffffff;
+  background: #293241;
   color: #11cdd4;
 }
